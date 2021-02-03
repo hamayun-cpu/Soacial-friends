@@ -40,20 +40,15 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise'
 
 group :development, :test do
-  gem 'database_cleaner'
-  gem 'rspec-rails', '~> 4.0.0'
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+# Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'capybara'
+  gem 'rspec-rails', '~> 4.0.0'
+  gem 'webdrivers'
 end
 
 group :test do
   gem 'rspec'
-  gem 'database_cleaner-active_record'
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
 end
 
 group :development do
