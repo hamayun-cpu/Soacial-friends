@@ -5,7 +5,7 @@ RSpec.feature 'Form for Sign Up', type: :feature do
     scenario 'should be able to enter a name' do
       visit new_user_registration_path
       within('form') do
-        fill_in 'Name', with: 'luffy'
+        fill_in 'Name', with: 'example'
       end
       click_button 'Sign up'
       expect(page).to have_content 'Sign up'
@@ -31,7 +31,7 @@ RSpec.feature 'Form for Sign Up', type: :feature do
     scenario 'should be able to enter an  email' do
       visit new_user_registration_path
       within('form') do
-        fill_in 'Email', with: 'luffy@onepiece.com'
+        fill_in 'Email', with: 'em@example.com'
       end
       click_button 'Sign up'
       expect(page).to have_content 'All users'
