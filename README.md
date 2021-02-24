@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# ROR-Social-Scaffold
+# Social-friends
 
 > This project is a Social-Media-App. In which a user if not SignedIn, can SignIn or SignUp. If User is SignedIn he can create posts and can comment and like/dislike other's posts. He can also send friendship request to other users, and that user can accept or decline the request. A SignedIn user will have Timline page where he can see all the posts posted by him and his friends.
 
